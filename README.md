@@ -2,7 +2,7 @@
 
 Mirror of the Önfelt Lab website ([onfeltlab.com](https://onfeltlab.com)), published with GitHub Pages.
 
-**Pages:** https://hanqing-zhang-kth.github.io/Lab-webpage/
+**Pages:** https://onfelt-lab.github.io/Lab-webpage/
 
 ## Update content
 
@@ -19,7 +19,7 @@ Agents editing this site should read `AGENTS.md`, then follow `docs/lab-webpage-
 
 ## Differences from onfeltlab.com
 
-- The site is served at https://hanqing-zhang-kth.github.io/Lab-webpage/, not at the domain root, so root-relative URLs would miss `/Lab-webpage/`.
+- The site is served at https://onfelt-lab.github.io/Lab-webpage/, not at the domain root, so root-relative URLs would miss `/Lab-webpage/`.
 - Links, images, CSS, and JS are relative so they resolve under that base path.
 - `.nojekyll` is in the repo root so GitHub Pages does not run Jekyll on the mirrored HTML.
 - Montserrat is stored as `onewebstatic/google-fonts.css` and local `.woff2` files. GitHub Pages cannot run the original `google-fonts.php` script.

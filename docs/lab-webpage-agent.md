@@ -1,6 +1,6 @@
 # Edit the Önfelt Lab website
 
-This repository is the public site at https://hanqing-zhang-kth.github.io/Lab-webpage/. Do not crawl https://onfeltlab.com to find a file. Use the page map below and [assets.md](assets.md).
+This repository is the public site at https://onfelt-lab.github.io/Lab-webpage/. Do not crawl https://onfeltlab.com to find a file. Use the page map below and [assets.md](assets.md).
 
 GitHub Pages serves the `main` branch, folder `/` (the repository root). There is no custom domain.
 
@@ -8,19 +8,19 @@ GitHub Pages serves the `main` branch, folder `/` (the repository root). There i
 
 | Section | HTML file | Pages URL |
 | --- | --- | --- |
-| Home | `index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/ |
-| Our lab | `ourlab/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/ourlab/ |
-| Publications | `publications/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/publications/ |
-| Immunology research | `immunology/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/immunology/ |
-| NK cell dynamics | `immunology/NK/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/immunology/NK/ |
-| T cell dynamics | `immunology/T/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/immunology/T/ |
-| Molecular engagers | `immunology/engagers/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/immunology/engagers/ |
-| 3D tumor models | `immunology/3d-models/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/immunology/3d-models/ |
-| Technology platforms | `technology/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/technology/ |
-| Microwell chip platform | `technology/microwellchips/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/technology/microwellchips/ |
-| Single cell analysis | `technology/singlecell/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/technology/singlecell/ |
-| Single cell isolation | `technology/singlecellisolation/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/technology/singlecellisolation/ |
-| Ultrasound cell handling | `technology/ultrasoundcellhandling/index.html` | https://hanqing-zhang-kth.github.io/Lab-webpage/technology/ultrasoundcellhandling/ |
+| Home | `index.html` | https://onfelt-lab.github.io/Lab-webpage/ |
+| Our lab | `ourlab/index.html` | https://onfelt-lab.github.io/Lab-webpage/ourlab/ |
+| Publications | `publications/index.html` | https://onfelt-lab.github.io/Lab-webpage/publications/ |
+| Immunology research | `immunology/index.html` | https://onfelt-lab.github.io/Lab-webpage/immunology/ |
+| NK cell dynamics | `immunology/NK/index.html` | https://onfelt-lab.github.io/Lab-webpage/immunology/NK/ |
+| T cell dynamics | `immunology/T/index.html` | https://onfelt-lab.github.io/Lab-webpage/immunology/T/ |
+| Molecular engagers | `immunology/engagers/index.html` | https://onfelt-lab.github.io/Lab-webpage/immunology/engagers/ |
+| 3D tumor models | `immunology/3d-models/index.html` | https://onfelt-lab.github.io/Lab-webpage/immunology/3d-models/ |
+| Technology platforms | `technology/index.html` | https://onfelt-lab.github.io/Lab-webpage/technology/ |
+| Microwell chip platform | `technology/microwellchips/index.html` | https://onfelt-lab.github.io/Lab-webpage/technology/microwellchips/ |
+| Single cell analysis | `technology/singlecell/index.html` | https://onfelt-lab.github.io/Lab-webpage/technology/singlecell/ |
+| Single cell isolation | `technology/singlecellisolation/index.html` | https://onfelt-lab.github.io/Lab-webpage/technology/singlecellisolation/ |
+| Ultrasound cell handling | `technology/ultrasoundcellhandling/index.html` | https://onfelt-lab.github.io/Lab-webpage/technology/ultrasoundcellhandling/ |
 
 `sitemap.xml` lists the same pages. The menu and footer in every HTML file repeat these links.
 
@@ -33,7 +33,7 @@ GitHub Pages serves the `main` branch, folder `/` (the repository root). There i
 ## Rules
 
 1. Keep links relative. From `index.html` use `onewebmedia/photo.jpg` and `onewebstatic/site.css`. From `ourlab/`, `publications/`, `immunology/`, and `technology/` use `../onewebmedia/photo.jpg`. From a nested page such as `immunology/NK/` or `technology/microwellchips/` use `../../onewebmedia/photo.jpg`.
-2. Do not use a root-relative path such as `/onewebmedia/photo.jpg` or `/css/site.css`. The browser would request it from `https://hanqing-zhang-kth.github.io/` and skip `/Lab-webpage/`.
+2. Do not use a root-relative path such as `/onewebmedia/photo.jpg` or `/css/site.css`. The browser would request it from `https://onfelt-lab.github.io/` and skip `/Lab-webpage/`.
 3. Link to a section with its directory (`ourlab/`, `immunology/NK/`). Each section is `index.html` in that directory.
 4. Leave `.nojekyll` at the repository root. Do not add a `CNAME` file.
 5. Do not point stylesheets at `google-fonts.php` or `fonts.googleapis.com`. Montserrat is `onewebstatic/google-fonts.css` and the `.woff2` files in `onewebstatic/`.
