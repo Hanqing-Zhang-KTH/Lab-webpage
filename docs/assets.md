@@ -1,6 +1,6 @@
 # Assets
 
-Lookup table for `.cursor/skills/lab-webpage/SKILL.md`. Paths are from the repository root. Replace a picture by overwriting that path.
+Picture, video, stylesheet, script, and font paths for [lab-webpage-agent.md](lab-webpage-agent.md). Paths are from the repository root. Replace a picture by overwriting that path. This is the only asset list.
 
 ## Shared by every page
 
