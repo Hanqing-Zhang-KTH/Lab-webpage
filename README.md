@@ -15,7 +15,7 @@ Replace the asset or HTML file in place (same path and filename), commit, and pu
 
 Keep links relative so they keep working under the `/Lab-webpage/` base path. The `.nojekyll` file stops GitHub Pages from running Jekyll on the mirror.
 
-Agents editing this site should follow `.cursor/skills/lab-webpage/SKILL.md`. The version log is `.cursor/skills/lab-webpage/VERSION.md`.
+Agents editing this site should read `AGENTS.md`, then follow `docs/lab-webpage-agent.md`. The version log is `docs/VERSION.md`.
 
 ## Differences from onfeltlab.com
 

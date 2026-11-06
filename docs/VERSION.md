@@ -1,6 +1,12 @@
 # Version log
 
-Newest first. Maintained by `.cursor/skills/lab-webpage/SKILL.md`. Do not add versions before 1.0.0.
+Newest first. Maintained by [lab-webpage-agent.md](lab-webpage-agent.md). Do not add versions before 1.0.0.
+
+## 1.0.2
+
+6 November 2026, 18:13 Europe/Stockholm
+
+minor changes
 
 ## 1.0.1
 
