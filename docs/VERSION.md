@@ -2,6 +2,12 @@
 
 Newest first. Maintained by [lab-webpage-agent.md](lab-webpage-agent.md). Do not add versions before 1.0.0.
 
+## 1.1.0
+
+12 November 2026, 16:41 Europe/Stockholm
+
+Added 17 confirmed papers and preprints to the publications page. The full list is grouped by publication year, newest year first. The two bioRxiv items are marked as preprints.
+
 ## 1.0.2
 
 6 November 2026, 18:13 Europe/Stockholm
