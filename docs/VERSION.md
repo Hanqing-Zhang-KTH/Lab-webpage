@@ -2,6 +2,12 @@
 
 Newest first. Maintained by [lab-webpage-agent.md](lab-webpage-agent.md). Do not add versions before 1.0.0.
 
+## 1.1.2
+
+16 November 2026, 11:29 Europe/Stockholm
+
+minor changes
+
 ## 1.1.1
 
 16 November 2026, 11:21 Europe/Stockholm
